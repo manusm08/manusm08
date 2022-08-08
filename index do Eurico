@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ACIG'S</title>
+<link href="css/estilos.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header id="cabecalho">
+<section id="topo">
+<section id="logo">LOGO MARCA</section>
+<section id="posicaologin">
+<input type="text" name="login" size="20" id="login" placeholder="Login">
+<input type="password" name="senha" size="20" id="senha" placeholder="Senha">
+<button type="submit" name="entrar" id="botaologin">Entrar</button>
+</section>
+ </section>
+<nav id="menu">
+ <ul>
+ <li><a href="index.html">Início</a></li>
+ <li><a href="#">Quem somos</a></li>
+ <li><a href="#">Serviços</a></li>
+ <li><a href="#">Contato</a></li>
+ </ul>
+ <form method="post">
+ <div class="container">
+<input type="search" id="busca" name="q" placeholder="Pesquisar">
+<button type="submit">OK</button>
+ </div>
+</form>
+ </nav>
+</header>
+<section id="banner">
+<img src="img/banner.png" width="800" height="300" alt=""/> </section>
+<section id="corpo">
+ <article id="artigoesquerdo">
+ <h2>Vídeo YouTube</h2>
+ <p>Insira um vídeo do YouTube neste espaço. </p>
+ <p>Para isto, basta copiar o código iframe do vídeo do Youtube</p>
+ <p>E colar o mesmo no código HTML deste article</p>
+ </article>
+ <aside id="propagandadireita">
+ <h2>Mensagem</h2>
+ <p>Utilize este espaço para inserir uma imagem com uma Mensagem</p>
+ <p>Digite uma mensagem que gostaria de compartilhar com o Mundo</p>
+ <p>Utilize o Gimp para isso</p>
+ <p>No Gimp crie um arquivo em jpg ou png</p>
+ <p>Para saber o tamanho correto, observe as dimensões no css</p>
+ </aside>
+</section>
+<footer id="rodape">
+ <p class="texto_rodape">Página Web Produzida por Seu nome - Seu E-mail</p>
+</footer>
+</body>
+</html>
